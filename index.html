@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Surpresa</title>        
+    </head>
+    <body>
+        <section class="formulario">
+            <div class="formulario__container">
+                <img src="./imgs/status-1.png" class="imagem__status1">                
+                <h2 class="formulario__titulo-texto">Preencha o campo abaixo com seus dois primeiros nomes!</h2>
+            </div>            
+            <form class="principal__formulario" data-formulario>
+                <label class="campo__etiqueta" for="nome">Seu nome: </label>
+                <input name="nome" id="nome" class="campo__escrita" type="nome" minlength="3" required/>
+                <input value="Avançar" class="formulario__botao" id="Enviar" data-botao-enviar type="submit"> 
+            </form>  
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>

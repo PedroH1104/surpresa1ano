@@ -1,0 +1,12 @@
+@import url("./css/index.css");
+@import url("./css/acessoPermitido.css");
+@import url("./css/acessoNegado.css");
+@import url("./css/surpresa01.css");
+@import url("./css/surpresa02.css");
+
+:root {    
+    --azul-claro: #6BD1FF;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+

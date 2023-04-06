@@ -1,0 +1,46 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 37vh;    
+}
+
+.imagem__status1 {
+    padding-left: 120px;
+    margin-bottom: 5vh;
+}
+
+.formulario__titulo-texto {
+    font-size: 24px;
+}
+
+.principal__formulario {
+    margin-top: 3px;
+}
+
+.campo__etiqueta {
+    font-size: 20px;
+}
+
+.campo__escrita {
+    padding-left: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.formulario__botao {
+    background: var(--branco);    
+    border: none;
+    padding: .5em 2em;
+    border: 1px solid var(--preto);
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--preto);
+}
+
+.formulario__botao:hover {
+    cursor: pointer;
+}

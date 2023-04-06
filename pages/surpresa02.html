@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>Surpresa</title>        
+    </head>
+    <body class="body">
+        <h1 class="surpresa02__titulo">FELIZ 1 ANO DE NAMORO, MEU AMOR!!</h1>
+        <button class="botao__música">Clique aqui   </button>
+        <audio src="../musica.mp3" class="surpresa__música"></audio>
+        <section class="carrossel">
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="../imgs/1foto.jpg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal10.jpg" alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal7.jpg" alt="Livro sobre liderança em design da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal9.jpg" alt="Livro sobre javascript assertivo da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal6.jpg" alt="Livro sobre guia front-end da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal8.jpg" alt="Livro sobre portugol da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal5.jpg" alt="Livro sobre acessibilidade da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal2.jpg" alt="Livro sobre portugol da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal4.jpg" alt="Livro sobre acessibilidade da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal3.jpg" alt="Livro sobre portugol da alura books"></div>
+                        <div class="swiper-slide"><img src="../imgs/casal1.jpg" alt="Livro sobre acessibilidade da alura books"></div>
+                    </div>                
+                
+                    <!-- If we need navigation buttons (SETINHA AZUL NA ESQUERDA E DIREITA) -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>        
+                </div>
+            </div>
+        </section>
+        <section class="declaracao">
+            <p class="texto__declaracao">Caraca amor, até que em fim você admitiu que eu amo mais ein?! Outro detalhe curioso é você ter lembrado
+                a data, não sei porque, mas sinto que você não lembrou de cara e precisou de alguma ajuda, espero que eu
+                esteja enganado. Outro detalhe antes de começar, é que a 1º foto acima, foi a primeira foto que a gente postou juntos, dia 29/12/21. Então amor, aqui estamos, 365 dias de namoro, mas 504 dias desde o primeiro beijo, 
+                1 ano que parecem 3 ou 4 por tudo que a gente já conquistou e aprendeu um com o outro, sou muito 
+                orgulhoso da nossa relação, e grato por te ter comigo. Saiba que a forma como eu vejo nosso namoro
+                é muito diferente da forma como eu vi os outros, e acho que isso é natural pela minha maturidade e 
+                outros fatores, mas observando outros relacionamentos, fico feliz pela forma como nós aprendemos com as
+                situações e como lidamos com elas, porque é isso é o que constrói e fortalece uma relação. A gente 
+                realmente construiu nossa relação aos poucos da forma que tem que ser, conversando e sempre aprendendo 
+                com cada coisa. Obrigado por ajudar a me conhecer todos os dias e também influenciar muito com todo esse
+                isso! Observo a forma como você vê as coisas com seu olhar de artista e sua sensibilidade para as coisas, eu posso até tirar onda e 
+                ficar rindo, mas eu acho isso muito lindo em você, vida (inclusive, me lembra depois de falar sobre um dos presentes que não deu certo). 
+                Obrigado por fazer esses meus 504 dias serem 
+                muito mais felizes, cada momento com você é muito especial e a nossa conexão é algo muito louco, obrigado
+                por fazer eu sentir todas as coisas que já senti e por todo esse tempo juntos, que venham mais e mais,
+                que a gente possa continuar crescendo como um casal e também individualmente, um apoiando o outro, porque
+                juntos somos imbativéis. Feliz nosso primeiro ano(nunca cheguei nessa parte), eu te amo muito, minha princesa!! 
+                Será que você conhece seu namorado e acertou as respostas?! Espero que goste e que eu não ganhe uma sunga com sua cara, TE AMO MAIS!              
+            </p>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {                
+                spaceBetween: 10,       /* margin que fica na direita de cada elemento */
+                slidesPerView: 3,       /* slides que vão aparecer por vez*/
+                pagination: {           /* bolinhas de navegação */
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+        <script src="../js/tocamusica.js"></script>
+    </body>

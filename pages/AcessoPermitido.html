@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <title>Surpresa</title>        
+    </head>
+    <body>
+        <div class="permitido__container1">
+            <h1 class="permitido__titulo">Olá, Andressa Laynne!</h1>
+            <img src="../imgs/status-2.png" class="imagem__status2">
+            <p class="permitido__texto">Antes de continuarmos, preciso que você responda mais algumas questões!</p>
+        </div>
+        <form class="questionario" data-questionario>
+            <fieldset class="questionario__campo">
+                <label class="campo__texto" for="data__ficada">Data do nosso primeiro beijo</label>
+                <input name="data__ficada" class="campo__resposta" type="date" required />
+            </fieldset>
+            <fieldset class="questionario__campo">
+                <label class="campo__texto" for="questionario__amor">Quem ama mais?</label>
+                <input name="questionario__amor" class="campo__resposta" type="text" required placeholder="Pedro ou Andressa"/>
+            </fieldset>         
+            <div class="campo__botao">
+                <input value="Juro Juro" class="questionario__botao" id="enviar" data-botao-enviar type="submit">            
+            </div>            
+        </form>    
+        <div class="campo__aviso hide">
+            <p class="aviso__texto">Amor, você não pode jurar jurar com mentiras</p>
+        </div>    
+        <script src="../js/acessoPermitido.js"></script>       
+    </body>
+</html>

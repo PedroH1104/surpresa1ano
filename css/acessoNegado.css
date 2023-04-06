@@ -1,0 +1,21 @@
+.acesso__negado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40vh;
+}
+
+.texto__negado {    
+    font-size: 48px;
+}
+
+.botao__retornar {
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.botao__link {
+    text-decoration: none;
+    color: var(--preto);
+    font-size: 16px;
+}
